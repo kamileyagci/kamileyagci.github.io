@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[kamileyagci@gmail.com](mailto:kamileyagci@gmail.com)
+[kamile.dindar@gmail.com](mailto:kamile.dindar@gmail.com)
