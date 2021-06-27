@@ -123,7 +123,7 @@ In order to understand the effect of prdoduction budget, I plotted the scatter g
 * As expected and observed on the plot (top), there is a high correlation between the production budget and profit.
 * The correlation between production budget and profit rate is almost zero (bottom plot). The shape of the distribution varies in different budget ranges, the correlation might be different, too.  Therefore, it is better to look at the profit rate distributions in zoomed budget ranges. 
 
-![Profit-vs-Budget](/figures/budget-profit1.png)
+![Profit-vs-Budget]({{ site.baseurl }}/_posts/figures/budget-profit1.png)
 
 The production budget is divided in 4 ranges, and scatter graphs are plotted for all. The median profit_rate is calculated and displayed on the graphs in addition to the correlation values.
 * Low budget: production_budget <= $20,000,000 (top left): Almost zero correlation. Small median profit rate. Investment not recommended.
@@ -131,7 +131,7 @@ The production budget is divided in 4 ranges, and scatter graphs are plotted for
 * High budget: $100,000,000 < production_budget <= $200,000,000 (bottom left): Some positive correlation exists. Good, stable profit rate. Highly recommended for investement.
 * Very high budget: production_budget > $100,000,000 (bottom right): Negative correlation. Median profit rate is high. There is a likelihood that profit rate will decrease as the budget increases. The risk is high on this investment. The uncertinity in the analysis for this budget range is high due to the small data available.
 
-![Profit-vs-BudgetRanges](/figures/budget-profit2.png)
+![Profit-vs-BudgetRanges](/_posts/figures/budget-profit2.png)
 
 ### Q2: Is there a correlation between the ratings and the profit?
 
