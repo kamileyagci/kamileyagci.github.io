@@ -123,7 +123,7 @@ In order to understand the effect of prdoduction budget, I plotted the scatter g
 * As expected and observed on the plot (top), there is a high correlation between the production budget and profit.
 * The correlation between production budget and profit rate is almost zero (bottom plot). The shape of the distribution varies in different budget ranges, the correlation might be different, too.  Therefore, it is better to look at the profit rate distributions in zoomed budget ranges. 
 
-![Profit-vs-Budget](/_posts/figures/budget-profit1.png)
+![Profit-vs-Budget](/figures_movieBudget/budget-profit1.png)
 
 The production budget is divided in 4 ranges, and scatter graphs are plotted for all. The median profit_rate is calculated and displayed on the graphs in addition to the correlation values.
 * Low budget: production_budget <= $20,000,000 (top left): Almost zero correlation. Small median profit rate. Investment not recommended.
