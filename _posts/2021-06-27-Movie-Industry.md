@@ -2,7 +2,9 @@
 
 **Author: Kamile Yagci**
 
-Update
+Update 2
+
+![_config.yml](/images/config.png)
 
 ## Overview
 
