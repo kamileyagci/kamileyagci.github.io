@@ -2,11 +2,11 @@
 
 **Author: Kamile Yagci**
 
-Update 2
+Update 3
 
 ![_config.yml](/images/config.png)
 
-![_config.yml](/_posts/figures/budget-profit2.png)
+![_config.yml](/figures_MovieBudget/budget-profit2.png)
 
 ## Overview
 
