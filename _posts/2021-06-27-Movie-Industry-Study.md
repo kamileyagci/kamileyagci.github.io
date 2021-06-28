@@ -60,7 +60,7 @@ The data files are:
     * Filter data specifed for Question 3
     * Select the high budget movies (production_budget > $100,000,000).
     * Find Most Profitable Directors
-        * Data Visualization: Bar Graphs for Profit and Profit Rate. Top names will be displayed only. 
+        * Data Visualization: Bar Graphs for Median Profit and Median Profit Rate. Top names will be displayed only. 
         * Find the intersection of the names on the two lists/bar graphs: Profit and Profit Rate.
     * Find Profitable Writers
     * Find Profitable Actors
@@ -69,7 +69,7 @@ The data files are:
 10. Analyse Business Question 4: Which genres make the most profit?
     * Filter data specifed for Question 4.
     * Select the high budget movies (production_budget > $100,000,000). This selection is based on the analysis for Question 1. 
-    * Data Visualization: Bar Graphs for Profit and Profit Rate.
+    * Data Visualization: Bar Graphs for Median Profit and Median Profit Rate.
     * Visually determine the most profitable names based on two bar graphs: Profit and Profit Rate.
 
 **Part III**
@@ -186,7 +186,7 @@ Most profitable directors:
 
 **Writers**
 
-The figure below displays the bar graphs for the top writers based on profit (left) and based on profit_rate (right) for high budget movies. 
+The figure below displays the bar graphs for the top writers based on median profit (left) and based on median profit_rate (right) for high budget movies. 
 
 Most profitable writers: 
 'Linda Woolverton', 'Phil Johnston', 'Gary Scott Thompson', 'Meg LeFauve', 'Jim Reardon', 'Nicole Perlman', 'Jeff Pinkner', 'Erik Sommers', 'Chris McKenna', 'Derek Connolly', 'Suzanne Collins', 'Zak Penn', 'Michael Arndt'
@@ -234,17 +234,17 @@ Data is Filtered with specifed cuts for Question 4:
 
 The data is GroupBy 'Genres' with Median aggregiation.
 
-![Q3-code1](/images/figures_MovieBudget/figures/Q3-code1.png)
+![Q3-code1](/images/figures_MovieBudget/Q3-code1.png)
 
 However, some of the genres have few number of movies listed. These genres are removed from the data for healtier result.
 
-![Q3-code2](/images/figures_MovieBudget/figures/Q3-code2.png)
+![Q3-code2](/images/figures_MovieBudget/Q3-code2.png)
 
-![Q3-code3](/images/figures_MovieBudget/figures/Q3-code3.png)
+![Q3-code3](/images/figures_MovieBudget/Q3-code3.png)
 
 Bar Graphs for Profit and Profit Rate are drawn for common genres with at least 10 entries. 
 
-![Q3-code4](/images/figures_MovieBudget/figures/Q4-code4.png)
+![Q3-code4](/images/figures_MovieBudget/Q4-code4.png)
 
 For Business Questions 4, I have analyzed the movies in two seperate budget ranges:
 * High budget: production_budget > $100,000,000
@@ -252,13 +252,13 @@ For Business Questions 4, I have analyzed the movies in two seperate budget rang
 
 #### High Budget Movies (production_budget > $100,000,000)
 
-The bar graphs below compares the most common genres for profit (left) and for profit_rate (right) for high budget movies.
+The bar graphs below compares the most common genres for median profit (left) and for median profit_rate (right) for high budget movies.
 
 I visually determined the most profitable genres based on two bar graphs: Profit and Profit Rate.
 
 Most profitable genres for High Budget: Sci-Fi, Animation, Adventure, Comedy, and Action
 
-![Genres2-HighBudget](/images/figures_MovieBudget/figures/genres-profit2_highBudget.png)
+![Genres2-HighBudget](/images/figures_MovieBudget/genres-profit2_highBudget.png)
 
 #### Medium budget Movies: ($20,000,000 < production_budget <= $100,000,000)
 
