@@ -2,9 +2,6 @@
 
 **Author: Kamile Yagci**
 
-Update 4
-
-![_config.yml](/images/config.png)
 
 ![_config.yml](/images/figures_MovieBudget/budget-profit2.png)
 
@@ -129,7 +126,7 @@ In order to understand the effect of prdoduction budget, I plotted the scatter g
 * As expected and observed on the plot (top), there is a high correlation between the production budget and profit.
 * The correlation between production budget and profit rate is almost zero (bottom plot). The shape of the distribution varies in different budget ranges, the correlation might be different, too.  Therefore, it is better to look at the profit rate distributions in zoomed budget ranges. 
 
-![Profit-vs-Budget](https://github.com/kamileyagci/kamileyagci.github.io/blob/master/_posts/figures/budget-profit1.png)
+![Profit-vs-Budget](/images/figures_MovieBudget/budget-profit1.png)
 
 The production budget is divided in 4 ranges, and scatter graphs are plotted for all. The median profit_rate is calculated and displayed on the graphs in addition to the correlation values.
 * Low budget: production_budget <= $20,000,000 (top left): Almost zero correlation. Small median profit rate. Investment not recommended.
@@ -137,13 +134,13 @@ The production budget is divided in 4 ranges, and scatter graphs are plotted for
 * High budget: $100,000,000 < production_budget <= $200,000,000 (bottom left): Some positive correlation exists. Good, stable profit rate. Highly recommended for investement.
 * Very high budget: production_budget > $100,000,000 (bottom right): Negative correlation. Median profit rate is high. There is a likelihood that profit rate will decrease as the budget increases. The risk is high on this investment. The uncertinity in the analysis for this budget range is high due to the small data available.
 
-![Profit-vs-BudgetRanges](/_posts/figures/budget-profit2.png)
+![Profit-vs-BudgetRanges](/images/figures_MovieBudget/budget-profit2.png)
 
 ### Q2: Is there a correlation between the ratings and the profit?
 
 The below scatter plots show the profit versus average rating (top) and profit_rate versus average rating (bottom). There is good correlation between average rating and profit/profit_rate. However, after rating 8, the profit and profit rate drops. The left plot shows that, many high rating movies bring low profit, they are probably low budget movies. According to the right plot, the profit_rate is also low for the high rating movies. From profit point of view, I recommend to aim for making movies with average rating between 6 and 8.
 
-![Profit-vs-Rating](/_posts/figures/rating-profit.png)
+![Profit-vs-Rating](/images/figures_MovieBudget/rating-profit.png)
 
 ### Q3: Which directors, writers, actors and actresses make the most profit?
 
@@ -162,7 +159,7 @@ For this analysis, I declare that the intersection of these two bar graphs is th
 Most profitable directors: 
 'Lee Unkrich', 'Michael Bay', 'Jon Favreau', 'Rich Moore', 'Anthony Russo', 'Sam Mendes', 'Joe Russo', 'Byron Howard', 'Joss Whedon', 'Francis Lawrence', 'Don Hall'
 
-![Directors-HighBudget](/_posts/figures/director-profit_highBudget.png)
+![Directors-HighBudget](/images/figures_MovieBudget/director-profit_highBudget.png)
 
 **Writers**
 
@@ -171,7 +168,7 @@ The figure below displays the bar graphs for the top writers based on profit (le
 Most profitable writers: 
 'Linda Woolverton', 'Phil Johnston', 'Gary Scott Thompson', 'Meg LeFauve', 'Jim Reardon', 'Nicole Perlman', 'Jeff Pinkner', 'Erik Sommers', 'Chris McKenna', 'Derek Connolly', 'Suzanne Collins', 'Zak Penn', 'Michael Arndt'
 
-![Writers-HighBudget](/_posts/figures/writer-profit_highBudget.png)
+![Writers-HighBudget](/images/figures_MovieBudget/writer-profit_highBudget.png)
 
 **Actors**
 
@@ -180,7 +177,7 @@ The figure below displays the bar graphs for the top actors based on profit (lef
 Most profitable actors: 
 'Josh Duhamel', 'Vin Diesel', 'Mark Ruffalo', 'Chris Hemsworth', 'Josh Gad', 'Robert Downey Jr.', 'Javier Bardem', 'Chris Evans', 'Idris Elba', 'Josh Hutcherson', 'Chris Pratt', 'Jason Momoa', 'Jeremy Renner'
 
-![Actors-HighBudget](/_posts/figures/actor-profit_highBudget.png)
+![Actors-HighBudget](/images/figures_MovieBudget/actor-profit_highBudget.png)
 
 **Actresses**
 
@@ -188,7 +185,7 @@ The figure below displays the bar graphs for the top actresses based on profit (
 
 Most profitable actresses: 'Katherine Waterston', 'Emma Watson', 'Gal Gadot', 'Scarlett Johansson', 'Anne Hathaway', 'Jessica Chastain', 'Naomie Harris', 'Bryce Dallas Howard', 'Michelle Williams', 'Cate Blanchett', 'Brie Larson'
 
-![Actresses-HighBudget](/_posts/figures/actress-profit_highBudget.png)
+![Actresses-HighBudget](/images/figures_MovieBudget/actress-profit_highBudget.png)
 
 
 #### Medium budget Movies: ($20,000,000 < production_budget <= $100,000,000)
@@ -216,7 +213,7 @@ The bar graphs below compares the most common genres for profit (left) and for p
 
 Most profitable genres for High Budget: Sci-Fi, Animation, Thriller, Adventure
 
-![Genres2-HighBudget](/_posts/figures/genres-profit2_highBudget.png)
+![Genres2-HighBudget](/images/figures_MovieBudget/figures/genres-profit2_highBudget.png)
 
 #### Medium budget Movies: ($20,000,000 < production_budget <= $100,000,000)
 
@@ -224,7 +221,7 @@ Similar study made for medium budget movies.
 
 Profitable Genres for Medium Budget: Animation, Music, Family, Comedy, Adventure
 
-![Genres2-HighBudget](/_posts/figures/genres-profit2_medBudget.png)
+![Genres2-HighBudget](/images/figures_MovieBudget/genres-profit2_medBudget.png)
 
 ## Conclusion
 
