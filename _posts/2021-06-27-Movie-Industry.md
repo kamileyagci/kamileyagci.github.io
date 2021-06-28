@@ -6,6 +6,8 @@ Update 2
 
 ![_config.yml](/images/config.png)
 
+![_config.yml](/_posts/figures/budget-profit2.png)
+
 ## Overview
 
 In this project, I have analyzed the Movie Industry. The Microsoft decided to open a new studio and is exploring what types of films are currently doing the best at the box office. The results of this study will advise Microsoft on making business decisions.
