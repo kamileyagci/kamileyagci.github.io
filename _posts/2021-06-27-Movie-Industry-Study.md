@@ -1,9 +1,4 @@
-# Movie Industry Study 
-
 **Author: Kamile Yagci**
-
-
-![_config.yml](/images/figures_MovieBudget/budget-profit2.png)
 
 ## Overview
 
