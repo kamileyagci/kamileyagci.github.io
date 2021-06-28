@@ -90,7 +90,7 @@ The data is cleaned as follows:
     * Remove rows with $0 worldwide_gross
     * Change the currency columns to float
     * Seperate genres
-    * Slice the release year from the release date
+    * Slice the release year from the release date    
     
 ![Data-Clean-1](/images/figures_MovieBudget/Clean1.png)
 
@@ -234,17 +234,17 @@ Data is Filtered with specifed cuts for Question 4:
 
 The data is GroupBy 'Genres' with Median aggregiation.
 
-![Q3-code1](/images/figures_MovieBudget/Q3-code1.png)
+![Q4-code1](/images/figures_MovieBudget/Q4-code1.png)
 
 However, some of the genres have few number of movies listed. These genres are removed from the data for healtier result.
 
-![Q3-code2](/images/figures_MovieBudget/Q3-code2.png)
+![Q4-code2](/images/figures_MovieBudget/Q4-code2.png)
 
-![Q3-code3](/images/figures_MovieBudget/Q3-code3.png)
+![Q4-code3](/images/figures_MovieBudget/Q4-code3.png)
 
 Bar Graphs for Profit and Profit Rate are drawn for common genres with at least 10 entries. 
 
-![Q3-code4](/images/figures_MovieBudget/Q4-code4.png)
+![Q4-code4](/images/figures_MovieBudget/Q4-code4.png)
 
 For Business Questions 4, I have analyzed the movies in two seperate budget ranges:
 * High budget: production_budget > $100,000,000
